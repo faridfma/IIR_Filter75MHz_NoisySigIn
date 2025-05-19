@@ -8,10 +8,9 @@ entity IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB is
      Port (
          clk                  : in  std_logic := '0';           -- Clock signal
          reset                : in  std_logic := '0';           -- Reset signal
-         x_in                 : in  signed (15 downto 0):= (others=>'0');    
    
          iir_out              : out signed(15 downto 0):= (others=>'0');  -- Filtered output
-         sample_valid_out     : out std_logic := '0';     -- Sample valid output signal
+         iir_valid_out        : out std_logic := '0';     -- Sample valid output signal
          busy                 : out std_logic := '0'      -- Busy signal
      );
 end IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB;
@@ -103,14 +102,14 @@ process(clk, reset)
              Sum_x <= (others => (others => '0'));
              Sum_y <= (others => (others => '0'));
             
-             sample_valid_out <= '0';
+             iir_valid_out <= '0';
              busy <= '0';
              state <= 0;
         
          elsif rising_edge(clk) then
              case state is
 
-                 -- Initial stage: Load the input values and shift registers
+                 -- Initial stage
                  when 0 =>
                      if sample_valid_in_sig = '1'  then
                          x_reg(0) <= resize(x_in_sig,32); 
@@ -142,36 +141,28 @@ process(clk, reset)
                      Sum_y(0) <= resize(mul_y(1) + mul_y(2),64);   
                      Sum_y(1) <= resize(mul_y(3) + mul_y(4),64); 
                      Sum_y(2) <= resize(mul_y(5) + mul_y(6),64);   
-
                      state <= 3;
                     
                  when 3 =>
                      Sum_x(3) <= resize(Sum_x(0) + Sum_x(1),64);    
-                     Sum_x(4) <= resize(Sum_x(2) + mul_x(6),64);        
-                                                                    
+                     Sum_x(4) <= resize(Sum_x(2) + mul_x(6),64);                                                  
                      Sum_y(3) <= resize(Sum_y(0) + Sum_y(1),64);
-                    
                      state <= 4; 
                     
                  when 4 =>
                 
-                     Sum_x(5) <= resize(Sum_x(3) + Sum_x(4),64);             
-                                                                             
-                     Sum_y(4) <= resize(Sum_y(3) + Sum_y(2),64);               
-                                                                            
+                     Sum_x(5) <= resize(Sum_x(3) + Sum_x(4),64);                                                                    
+                     Sum_y(4) <= resize(Sum_y(3) + Sum_y(2),64);                                                                   
                      state <= 5;
                     
                  when 5 =>
   
                      SumDiff <= Sum_x(5)- Sum_y(4);
-                   
-                   
-                 state <= 6;
+                     state <= 6;
                     
                  when 6 => 
                     
                      Output <= resize(shift_right(SumDiff,24),32);   --scale down by 2^24
-                   
                      state <= 7;
                     
                  when 7 =>   
@@ -186,13 +177,12 @@ process(clk, reset)
                             y_reg(i) <= y_reg(i-1);
                          end loop;
                     
-                     sample_valid_out <= '1';
-                    
+                     iir_valid_out <= '1';
                      state <= 8;
 
                      when 8 => 
                      
-                     sample_valid_out <= '0';
+                     iir_valid_out <= '0';
                      busy <= '0';
                      state <= 0;
                  
@@ -206,6 +196,5 @@ process(clk, reset)
     iir_out <= Output(15 downto 0) when (Output >= -32768) AND (Output <= 32767) else
              to_signed(-32768,16) when (Output < -32768) else
              to_signed(32767,16) when (Output < 32767);
-
 
 end Behavioral;

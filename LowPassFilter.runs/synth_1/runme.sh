@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1'
+HD_PWD='C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

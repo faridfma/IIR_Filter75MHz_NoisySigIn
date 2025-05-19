@@ -22,15 +22,15 @@ create_project -in_memory -part xc7k325tffg676-2
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.cache/wt [current_project]
-set_property parent.project_path C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.cache/wt [current_project]
+set_property parent.project_path C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.cache/ip [current_project]
+set_property ip_output_repo c:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd
-  C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd
+  C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd
+  C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

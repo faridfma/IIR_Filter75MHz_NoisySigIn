@@ -15,45 +15,29 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-1540] The version limit for your license is '2019.11' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13000 
+INFO: Helper process launched with PID 9208 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 398.434 ; gain = 100.207
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 399.254 ; gain = 100.500
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:19]
-INFO: [Synth 8-3491] module 'Noisy_Signal_Generation' declared at 'C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:5' bound to instance 'SineWaveGen' of component 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:85]
-INFO: [Synth 8-638] synthesizing module 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'Noisy_Signal_Generation' (1#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' (2#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:19]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[15]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[14]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[13]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[12]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[11]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[10]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[9]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[8]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[7]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[6]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[5]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[4]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[3]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[2]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[1]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[0]
+INFO: [Synth 8-638] synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:18]
+INFO: [Synth 8-3491] module 'Noisy_Signal_Generation' declared at 'C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:5' bound to instance 'SineWaveGen' of component 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Noisy_Signal_Generation' (1#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' (2#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:18]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 456.312 ; gain = 157.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 456.312 ; gain = 157.559
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg676-2
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
----------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7k325tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 456.312 ; gain = 157.559
+---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "sample_valid_Out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "index" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-6040] Register index_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
@@ -65,10 +49,10 @@ INFO: [Synth 8-5545] ROM "Sum_x[3]" won't be mapped to RAM because address size 
 INFO: [Synth 8-5545] ROM "Sum_x[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "SumDiff" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "Output" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-INFO: [Synth 8-5545] ROM "sample_valid_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-327] inferring latch for variable 'iir_out_reg' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:206]
+INFO: [Synth 8-5545] ROM "iir_valid_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'iir_out_reg' [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:196]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 467.801 ; gain = 169.574
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 467.895 ; gain = 169.141
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -172,15 +156,15 @@ Warning: Parallel synthesis criteria is not met
 INFO: [Synth 8-5546] ROM "sample_valid_Out" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "index" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-6040] Register index_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:129]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:124]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:124]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:124]
 DSP Report: Generating DSP mul_y_reg[6]0, operation Mode is: (A:0x6bfabf)*B.
 DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
 DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
@@ -265,22 +249,6 @@ DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
 DSP Report: Generating DSP mul_x_reg[2]0, operation Mode is: (PCIN>>17)+(A:0x25c71)*B.
 DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
 DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[15]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[14]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[13]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[12]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[11]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[10]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[9]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[8]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[7]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[6]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[5]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[4]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[3]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[2]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[1]
-WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[0]
 INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][31]' (FDCE) to 'x_reg_reg[0][30]'
 INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][15]' (FDCE) to 'x_reg_reg[0][30]'
 INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][16]' (FDCE) to 'x_reg_reg[0][30]'
@@ -487,7 +455,7 @@ INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instan
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Sum_x_reg[0][0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mul_x_reg[6][1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 660.426 ; gain = 362.199
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 661.391 ; gain = 362.637
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -540,34 +508,34 @@ Note: The table above is a preliminary report that shows the DSPs inferred at th
 Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6837] The timing for the instance i_0/SineWaveGen/x_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -579,7 +547,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 660.426 ; gain = 362.199
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 661.391 ; gain = 362.637
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -590,51 +558,51 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
-INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:99]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:99]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:99]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:96]
 INFO: [Synth 8-6837] The timing for the instance SineWaveGen/x_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -658,7 +626,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -671,7 +639,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -683,25 +651,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -743,30 +711,30 @@ Report Instance Areas:
 |2     |  SineWaveGen |Noisy_Signal_Generation |    93|
 +------+--------------+------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 672 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
-Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Synthesis finished with 0 errors, 0 critical warnings and 640 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 666.145 ; gain = 367.391
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 465 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' is not ideal for floorplanning, since the cellview 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 770.645 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 769.441 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 16 instances were transformed.
   LDC => LDCE: 15 instances
   LDP => LDPE: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-214 Infos, 136 Warnings, 0 Critical Warnings and 0 Errors encountered.
+214 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 770.645 ; gain = 485.277
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 770.645 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 769.441 ; gain = 483.363
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 769.441 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1/IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/fmabrouk/Documents/EmbeddedDesign/IIR_Filter_75KHz_NoistSig_in/LowPassFilter.runs/synth_1/IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB_utilization_synth.rpt -pb IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun May 18 19:13:56 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon May 19 00:29:41 2025...

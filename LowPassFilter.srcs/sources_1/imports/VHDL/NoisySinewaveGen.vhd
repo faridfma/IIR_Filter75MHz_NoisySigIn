@@ -6,7 +6,7 @@ entity Noisy_Signal_Generation is
      Port (
          clk                  : in  std_logic := '0';           -- Clock signal
          reset                : in  std_logic := '0';           -- Reset signal
-         x_out                : Out signed(15 downto 0):= (others=>'0');   
+         x_out                : out signed(15 downto 0):= (others=>'0');   
          sample_valid_Out     : out std_logic := '0'      -- Sample valid input signal
      );
 end Noisy_Signal_Generation;
