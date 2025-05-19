@@ -1,0 +1,7 @@
+Running: xsim.dir/Noisy_Signal_Generation_behav/xsimk.exe -simmode gui -wdb Noisy_Signal_Generation_behav.wdb -simrunnum 0 -socket 51550
+Design successfully loaded
+Design Loading Memory Usage: 8388 KB (Peak: 8388 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 9204 KB (Peak: 9204 KB)
+Simulation CPU Usage: 77 ms

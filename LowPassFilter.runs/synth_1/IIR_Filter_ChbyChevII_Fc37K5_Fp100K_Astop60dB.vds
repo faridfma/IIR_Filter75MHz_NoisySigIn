@@ -1,0 +1,773 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May 18 19:13:30 2025
+# Process ID: 13672
+# Current directory: C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1
+# Command line: vivado.exe -log IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.tcl
+# Log file: C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1/IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.vds
+# Journal file: C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.tcl -notrace
+Command: synth_design -top IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB -part xc7k325tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-1540] The version limit for your license is '2019.11' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13000 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 398.434 ; gain = 100.207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:19]
+INFO: [Synth 8-3491] module 'Noisy_Signal_Generation' declared at 'C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:5' bound to instance 'SineWaveGen' of component 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Noisy_Signal_Generation' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Noisy_Signal_Generation' (1#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' (2#1) [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:19]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[15]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[14]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[13]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[12]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[11]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[10]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[9]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[8]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[7]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[6]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[5]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[4]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[3]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[2]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[1]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.668 ; gain = 157.441
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg676-2
+INFO: [Synth 8-5546] ROM "sample_valid_Out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "index" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register index_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+INFO: [Synth 8-5545] ROM "x_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "mul_x[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Sum_x[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Sum_x[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Sum_x[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "SumDiff" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Output" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sample_valid_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'iir_out_reg' [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:206]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 467.801 ; gain = 169.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 11    
+	   3 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 25    
+	               32 Bit    Registers := 15    
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Multipliers : 
+	                29x32  Multipliers := 3     
+	                28x32  Multipliers := 1     
+	                27x32  Multipliers := 1     
+	                24x32  Multipliers := 1     
+	                19x32  Multipliers := 3     
+	                18x32  Multipliers := 2     
+	                16x32  Multipliers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+	  10 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 11    
+	   3 Input     64 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 25    
+	               32 Bit    Registers := 14    
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                29x32  Multipliers := 3     
+	                28x32  Multipliers := 1     
+	                27x32  Multipliers := 1     
+	                24x32  Multipliers := 1     
+	                19x32  Multipliers := 3     
+	                18x32  Multipliers := 2     
+	                16x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	  10 Input      1 Bit        Muxes := 13    
+Module Noisy_Signal_Generation 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "sample_valid_Out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "index" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6040] Register index_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:130]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:125]
+DSP Report: Generating DSP mul_y_reg[6]0, operation Mode is: (A:0x6bfabf)*B.
+DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
+DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
+DSP Report: Generating DSP mul_y_reg[6]0, operation Mode is: (PCIN>>17)+(A:0x6bfabf)*B.
+DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
+DSP Report: operator mul_y_reg[6]0 is absorbed into DSP mul_y_reg[6]0.
+DSP Report: Generating DSP mul_y_reg[5]0, operation Mode is: (A:0x12c5a)*B.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: Generating DSP mul_y_reg[5]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: Generating DSP mul_y_reg[5]0, operation Mode is: A*(B:0x12c5a).
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: Generating DSP mul_y_reg[5]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: operator mul_y_reg[5]0 is absorbed into DSP mul_y_reg[5]0.
+DSP Report: Generating DSP mul_y_reg[4]0, operation Mode is: (A:0x13a82)*B.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: Generating DSP mul_y_reg[4]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: Generating DSP mul_y_reg[4]0, operation Mode is: A*(B:0x13a82).
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: Generating DSP mul_y_reg[4]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: operator mul_y_reg[4]0 is absorbed into DSP mul_y_reg[4]0.
+DSP Report: Generating DSP mul_y_reg[3]0, operation Mode is: A*(B:0x1eb0).
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: Generating DSP mul_y_reg[3]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: Generating DSP mul_y_reg[3]0, operation Mode is: A*(B:0x1eb0).
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: Generating DSP mul_y_reg[3]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: operator mul_y_reg[3]0 is absorbed into DSP mul_y_reg[3]0.
+DSP Report: Generating DSP mul_y_reg[2]0, operation Mode is: (A:0x12707)*B.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: Generating DSP mul_y_reg[2]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: Generating DSP mul_y_reg[2]0, operation Mode is: A*(B:0x12707).
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: Generating DSP mul_y_reg[2]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: operator mul_y_reg[2]0 is absorbed into DSP mul_y_reg[2]0.
+DSP Report: Generating DSP mul_y_reg[1]0, operation Mode is: (A:0x5efe)*B.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: Generating DSP mul_y_reg[1]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: Generating DSP mul_y_reg[1]0, operation Mode is: A*(B:0x5efe).
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: Generating DSP mul_y_reg[1]0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: operator mul_y_reg[1]0 is absorbed into DSP mul_y_reg[1]0.
+DSP Report: Generating DSP mul_x_reg[4]0, operation Mode is: (A:0x25c71)*B.
+DSP Report: operator mul_x_reg[4]0 is absorbed into DSP mul_x_reg[4]0.
+DSP Report: operator mul_x_reg[4]0 is absorbed into DSP mul_x_reg[4]0.
+DSP Report: Generating DSP mul_x_reg[4]0, operation Mode is: (PCIN>>17)+(A:0x25c71)*B.
+DSP Report: operator mul_x_reg[4]0 is absorbed into DSP mul_x_reg[4]0.
+DSP Report: operator mul_x_reg[4]0 is absorbed into DSP mul_x_reg[4]0.
+DSP Report: Generating DSP mul_x_reg[3]0, operation Mode is: (A:0x3ffd203e)*B.
+DSP Report: operator mul_x_reg[3]0 is absorbed into DSP mul_x_reg[3]0.
+DSP Report: operator mul_x_reg[3]0 is absorbed into DSP mul_x_reg[3]0.
+DSP Report: Generating DSP mul_x_reg[3]0, operation Mode is: (PCIN>>17)+(A:0x3ffd203e)*B.
+DSP Report: operator mul_x_reg[3]0 is absorbed into DSP mul_x_reg[3]0.
+DSP Report: operator mul_x_reg[3]0 is absorbed into DSP mul_x_reg[3]0.
+DSP Report: Generating DSP mul_x_reg[2]0, operation Mode is: (A:0x25c71)*B.
+DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
+DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
+DSP Report: Generating DSP mul_x_reg[2]0, operation Mode is: (PCIN>>17)+(A:0x25c71)*B.
+DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
+DSP Report: operator mul_x_reg[2]0 is absorbed into DSP mul_x_reg[2]0.
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[15]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[14]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[13]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[12]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[11]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[10]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[9]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[8]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[7]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[6]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[5]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[4]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[3]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[2]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[1]
+WARNING: [Synth 8-3331] design IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB has unconnected port x_in[0]
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][31]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][15]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][16]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][17]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][18]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][19]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][20]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][21]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][22]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][23]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][24]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][25]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][28]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][26]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][29]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[0][27]' (FDCE) to 'x_reg_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][15]' (FDCE) to 'x_reg_reg[1][16]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][16]' (FDCE) to 'x_reg_reg[1][17]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][17]' (FDCE) to 'x_reg_reg[1][18]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][18]' (FDCE) to 'x_reg_reg[1][19]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][19]' (FDCE) to 'x_reg_reg[1][20]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][28]' (FDCE) to 'x_reg_reg[1][20]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][20]' (FDCE) to 'x_reg_reg[1][21]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][29]' (FDCE) to 'x_reg_reg[1][21]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][21]' (FDCE) to 'x_reg_reg[1][22]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][30]' (FDCE) to 'x_reg_reg[1][22]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][22]' (FDCE) to 'x_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][31]' (FDCE) to 'x_reg_reg[1][23]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][23]' (FDCE) to 'x_reg_reg[1][24]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][26]' (FDCE) to 'x_reg_reg[1][24]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][24]' (FDCE) to 'x_reg_reg[1][25]'
+INFO: [Synth 8-3886] merging instance 'x_reg_reg[1][27]' (FDCE) to 'x_reg_reg[1][25]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][47]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][48]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][49]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][49]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][50]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][50]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][51]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][51]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][52]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][52]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][53]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][53]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][54]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][54]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][55]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][55]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][56]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][56]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][57]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][57]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][58]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][58]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][59]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][59]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][60]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][60]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][61]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][61]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[0][62]' (FDCE) to 'mul_x_reg[0][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[1][62]' (FDCE) to 'mul_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][49]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][50]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][51]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][52]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][53]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][54]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][55]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][56]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][57]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][58]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][59]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][60]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][61]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[5][62]' (FDCE) to 'mul_x_reg[5][63]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][51]' (FDCE) to 'Sum_x_reg[1][52]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][52]' (FDCE) to 'Sum_x_reg[1][53]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][53]' (FDCE) to 'Sum_x_reg[1][54]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][54]' (FDCE) to 'Sum_x_reg[1][55]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][55]' (FDCE) to 'Sum_x_reg[1][56]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][56]' (FDCE) to 'Sum_x_reg[1][57]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][57]' (FDCE) to 'Sum_x_reg[1][58]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][58]' (FDCE) to 'Sum_x_reg[1][59]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][59]' (FDCE) to 'Sum_x_reg[1][60]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][60]' (FDCE) to 'Sum_x_reg[1][61]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][61]' (FDCE) to 'Sum_x_reg[1][62]'
+INFO: [Synth 8-3886] merging instance 'Sum_x_reg[1][62]' (FDCE) to 'Sum_x_reg[1][63]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][47]' (FDCE) to 'mul_x_reg[6][48]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][48]' (FDCE) to 'mul_x_reg[6][49]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][49]' (FDCE) to 'mul_x_reg[6][50]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][50]' (FDCE) to 'mul_x_reg[6][51]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][51]' (FDCE) to 'mul_x_reg[6][52]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][52]' (FDCE) to 'mul_x_reg[6][53]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][53]' (FDCE) to 'mul_x_reg[6][54]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][54]' (FDCE) to 'mul_x_reg[6][55]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][55]' (FDCE) to 'mul_x_reg[6][56]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][56]' (FDCE) to 'mul_x_reg[6][57]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][57]' (FDCE) to 'mul_x_reg[6][58]'
+INFO: [Synth 8-3886] merging instance 'mul_x_reg[6][58]' (FDCE) to 'mul_x_reg[6][59]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\state_reg[4] )
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[31]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[30]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[29]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[28]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[27]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[26]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[25]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[24]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[23]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[22]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[21]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[20]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[19]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[18]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[17]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[16]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[15]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[14]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[13]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[12]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (SineWaveGen/index_reg_rep[11]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][47]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][46]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][45]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][44]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][43]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][42]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][41]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][40]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][39]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][38]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][37]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][36]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][35]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][34]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][33]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][32]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][31]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][30]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][29]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][28]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][27]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][26]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][25]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][24]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][23]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][22]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][21]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][20]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][19]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][18]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][17]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][47]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][46]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][45]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][44]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][43]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][42]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][41]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][40]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[6][39]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][47]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][46]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][45]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][44]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][43]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][42]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][41]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][40]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][39]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][38]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][37]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][36]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][35]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][34]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][33]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][32]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][31]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][30]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][29]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][28]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][27]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][26]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][25]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][24]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][23]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][22]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][21]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][20]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][19]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][18]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][17]) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][47]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][46]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][45]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][44]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][43]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][42]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][41]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+WARNING: [Synth 8-3332] Sequential element (mul_y_reg[5][40]__0) is unused and will be removed from module IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Sum_x_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mul_x_reg[6][1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 660.426 ; gain = 362.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------+------------+---------------+----------------+
+|Module Name             | RTL Object | Depth x Width | Implemented As | 
++------------------------+------------+---------------+----------------+
+|Noisy_Signal_Generation | x_out_reg  | 2048x16       | Block RAM      | 
++------------------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------------------------------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                   | DSP Mapping                 | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------------------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x6bfabf)*B              | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+(A:0x6bfabf)*B   | 24     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x12c5a)*B               | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 15     | 10     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x12c5a)               | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 18     | 10     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x13a82)*B               | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 15     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x13a82)               | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 18     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x1eb0)                | 15     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 15     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x1eb0)                | 18     | 14     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 18     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x12707)*B               | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 15     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x12707)               | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 18     | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x5efe)*B                | 15     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 15     | 11     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | A*(B:0x5efe)                | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+A*B              | 18     | 11     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x25c71)*B               | 19     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+(A:0x25c71)*B    | 19     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x3ffd203e)*B            | 19     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+(A:0x3ffd203e)*B | 19     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (A:0x25c71)*B               | 19     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB | (PCIN>>17)+(A:0x25c71)*B    | 19     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------------------------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance i_0/SineWaveGen/x_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 660.426 ; gain = 362.199
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:101]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:100]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:98]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd:97]
+INFO: [Synth 8-6837] The timing for the instance SineWaveGen/x_out_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   420|
+|3     |DSP48E1  |    28|
+|4     |LUT1     |    61|
+|5     |LUT2     |  1294|
+|6     |LUT3     |   509|
+|7     |LUT4     |   165|
+|8     |LUT5     |    11|
+|9     |LUT6     |    11|
+|10    |RAMB36E1 |     1|
+|11    |FDCE     |  1419|
+|12    |FDRE     |   107|
+|13    |LDC      |    15|
+|14    |LDP      |     1|
+|15    |IBUF     |     2|
+|16    |OBUF     |    18|
++------+---------+------+
+
+Report Instance Areas: 
++------+--------------+------------------------+------+
+|      |Instance      |Module                  |Cells |
++------+--------------+------------------------+------+
+|1     |top           |                        |  4063|
+|2     |  SineWaveGen |Noisy_Signal_Generation |    93|
++------+--------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 672 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 666.043 ; gain = 367.816
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 465 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' is not ideal for floorplanning, since the cellview 'IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 770.645 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LDC => LDCE: 15 instances
+  LDP => LDPE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+214 Infos, 136 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 770.645 ; gain = 485.277
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 770.645 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/fmabrouk/Documents/EmbeddedDesign/LowPassFilter/LowPassFilter.runs/synth_1/IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB_utilization_synth.rpt -pb IIR_Filter_ChbyChevII_Fc37K5_Fp100K_Astop60dB_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 18 19:13:56 2025...

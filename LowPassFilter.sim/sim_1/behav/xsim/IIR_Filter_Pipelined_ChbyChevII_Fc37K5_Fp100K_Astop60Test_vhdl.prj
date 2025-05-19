@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../LowPassFilter.srcs/sources_1/imports/VHDL/IIR_Filter_Pipelined_ChbyChevII_Fc37K5_Fp100K_Astop60Test.vhd" \
+
+# Do not sort compile order
+nosort

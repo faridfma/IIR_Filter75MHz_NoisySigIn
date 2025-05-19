@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../LowPassFilter.srcs/sources_1/imports/VHDL/NoisySinewaveGen.vhd" \
+"../../../../LowPassFilter.srcs/sources_1/imports/VHDL/IIR_75KHz_ChebyshevII.vhd" \
+
+# Do not sort compile order
+nosort
